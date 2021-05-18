@@ -9,18 +9,16 @@
     font-size: 16px;
     font-family: font
 }
-html{
+body{
+    background:  hsl(0, 100%, 74%) url(../images/bg-intro-desktop.png);
+    min-width: 720px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-body{
-    background:  hsl(0, 100%, 74%) url(../images/bg-intro-desktop.png);
-    min-width: 720px;
+    height: 100vh;
 }
 .main{
-    margin: 80px auto;
     display: flex;
     flex-direction: row;
     /* border: 2px solid blue; */
